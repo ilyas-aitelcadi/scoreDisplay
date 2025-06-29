@@ -13,3 +13,7 @@ A simple and intuitive score display for sport games.
 - Scoreboard for basketball, football, or any sport
 - Mini-games and competitions
 - Classroom quizzes or events
+
+## How to use
+- Create a folder where you download the files "main.html", "basketball.html", "football.html".
+- Open the "main.html" file
