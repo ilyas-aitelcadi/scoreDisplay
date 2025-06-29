@@ -3,96 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   <link rel="icon" href="deepseek-logo.png" type="image/png">
+  <link rel="icon" href="deepseek-logo.png" type="image/png">
+  <link rel="stylesheet" href="main.css" />
+  <script src="main.js"></script>
+
   <title>Sport Page</title>
 
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f8f8f8;
-      margin: 0;
-      padding: 0;
-    }
-
-    .body {
-      max-width: 600px;
-      background-color: #fff8e1;
-      padding: 40px;
-      margin: 60px auto;
-      border: 3px solid #222;
-      border-radius: 16px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    }
-
-    .title {
-      text-align: center;
-      font-family: "Garamond", serif;
-      font-size: 2.2rem;
-      text-decoration: underline;
-      margin-bottom: 10px;
-      color: #333;
-    }
-
-    .intr {
-      text-align: center;
-      color: #c62828;
-      text-decoration: underline;
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
-
-    table {
-      width: 100%;
-      margin: 0 auto;
-      border-collapse: collapse;
-    }
-
-    td {
-      padding: 12px 10px;
-      vertical-align: middle;
-    }
-
-    .choice {
-      font-size: 1.1rem;
-      font-family: "Courier New", Courier, monospace;
-    }
-
-    .choice:hover{
-        cursor: pointer;
-        text-decoration: underline;
-    }
-
-    input[type="radio"] {
-      transform: scale(1.4);
-      accent-color: #c62828;
-    }
-
-    input:hover{
-        cursor: pointer;
-    }
-
-    .confirm {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-    }
-
-    button {
-      padding: 12px 24px;
-      background-color: #c62828;
-      color: white;
-      border: none;
-      border-radius: 25px;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-
-    button:hover {
-      background-color: #b71c1c;
-      transform: scale(1.05);
-    }
-  </style>
 </head>
 <body>
   <div class="body">
@@ -129,24 +45,6 @@
       </div>
     </form>
   </div>
-  <script>    
-  
-    let footCheck=document.getElementById("foot");
 
-    let basktCheck=document.getElementById("basket");
-
-    function openPage(){
-            if(footCheck.checked){
-                window.open("football.html");
-            }
-            else if(basktCheck.checked){
-                window.open("basketball.html");
-            }
-            else{
-                alert("Please select a sport");
-            }
-            
-        }
-  </script>
 </body>
 </html>
